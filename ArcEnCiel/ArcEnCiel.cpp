@@ -91,7 +91,8 @@ int main( array<System::String ^> ^args)
         delete myPen;
     }
 */
-    // draw diagonal line
+/*
+    // draw diagonal line wtih double step
     for (int index = 0; index < 480; index++)
     {
         aColor = ColorByLeft( 480, index, pColor);
@@ -108,6 +109,28 @@ int main( array<System::String ^> ^args)
         pFormGraphics->DrawLine( myPen, 0, 0, 480, index);
         delete myPen;
     }
+*/
+    // draw diagonal line on one step
+    int offset = 0;
+    for (int index = 0; index < 272; index++)
+    {
+        aColor = ColorByLeft( 480+272, offset, pColor);
+
+        System::Drawing::Pen^ myPen = gcnew System::Drawing::Pen( aColor);
+        pFormGraphics->DrawLine( myPen, 0, 0, 480, index);
+        delete myPen;
+        offset++;
+    }
+    for (int index = 480; index >= 0; index--)
+    {
+        aColor = ColorByLeft( 272+480, offset, pColor);
+
+        System::Drawing::Pen^ myPen = gcnew System::Drawing::Pen( aColor);
+        pFormGraphics->DrawLine( myPen, 0, 0, index, 272);
+        delete myPen;
+        offset++;
+    }
+
 
     pFormGraphics->DrawString( "This is a results",
          gcnew System::Drawing::Font( "Arial",14 ), System::Drawing::Brushes::Black, Point( 240, 174) );
