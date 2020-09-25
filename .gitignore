@@ -10,6 +10,7 @@ prjComps.h
 linkSyms.c
 compObjs.lst
 content.romfs
+desktop.ini
 **/SMP_WindMl/Makefile
 **/SMP_WindMl/Makefile.mk
 **/SMP_WindMl/*.wpj
