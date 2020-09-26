@@ -75,7 +75,7 @@ int main( array<System::String ^> ^args)
 
     // Draw a string on the PictureBox.
     pFormGraphics->DrawString( "This is a spectral colors drawn on the windows",
-         gcnew System::Drawing::Font( "Arial",14 ), System::Drawing::Brushes::Black, Point( 30, 30) );
+    gcnew System::Drawing::Font( "Arial",14 ), System::Drawing::Brushes::Black, Point( 30, 30) );
 
     // Draw a line in the PictureBox.
 //    pFormGraphics->DrawLine( System::Drawing::Pens::Red, pictureBox1->Left, pictureBox1->Top, pictureBox1->Right, pictureBox1->Bottom );
@@ -133,7 +133,7 @@ int main( array<System::String ^> ^args)
 
 
     pFormGraphics->DrawString( "This is a results",
-         gcnew System::Drawing::Font( "Arial",14 ), System::Drawing::Brushes::Black, Point( 240, 174) );
+    gcnew System::Drawing::Font( "Arial",14 ), System::Drawing::Brushes::Black, Point( 240, 174) );
 
     delete pColor;
     delete pFormGraphics;
