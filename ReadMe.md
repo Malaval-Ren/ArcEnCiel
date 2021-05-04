@@ -1,10 +1,12 @@
 
 # **Arc-En-Ciel - Rainbow**
 
-![Alt text](./arc-en-ciel-22438_512x512.png "ArcEnCiel")
+![Alt text](./arc-en-ciel_T_256x256.png "ArcEnCiel")
 
 # Draw a Rainbow
 
-Just a little sofware to play with lines colors
+Just a little sofware to play with color lines
 
-Have Fun !
+Special thank's to the rainbow image creator
+
+Have Fun :exclamation:
