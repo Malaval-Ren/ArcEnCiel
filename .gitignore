@@ -12,9 +12,9 @@
 .log/
 Debug/
 Release/
+ipch/
 /ArcEnCiel/Debug
 /ArcEnCiel/Release
-ipch/
 fileslist.txt
 gitfileslist.txt
 *Error.txt
