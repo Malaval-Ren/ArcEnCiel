@@ -13,12 +13,12 @@ arc-en-ciel-22438_512x512.ico
 .log/
 Debug/
 Release/
-\ArcEnCiel\Debug
-\ArcEnCiel\Release
+/ArcEnCiel/Debug
+/ArcEnCiel/Release
 ipch/
 *.sdf
 *.suo
 *.vcxproj.user
-*.VC.db
+*.db
 fileslist.txt
 gitfileslist.txt
